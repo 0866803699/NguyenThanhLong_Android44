@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Food oder</string>
+
+    --------------activity_main---------------
+    <string name="activity_User">Username</string>
+    <string name="activity_Password">Password</string>
+    <string name="activity_Login">Login</string>
+    --------------item---------------
+    <string name="item_name">Name</string>
+    <string name="item_price">Price</string>
+    --------------Add_Product---------------
+    <string name="activity_add_product_total">Total Price</string>
+    <string name="activity_add_product_oder">oder</string>
+    --------------Menu_Item---------------
+    <string name="menu_item_name">Add_Shop</string>
+    --------------Button_Item---------------
+    <string name="button_click">Thank you! Your order is sent to restaurant!</string>
+
+</resources>
