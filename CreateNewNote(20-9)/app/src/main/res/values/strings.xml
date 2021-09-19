@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Create New Note</string>
+    -----------Activity main-----------
+    <string name="AC_Title">Title</string>
+    <string name="AC_Des">Description</string>
+    <string name="AC_tv1">Remind me at : </string>
+    <string name="AC_tv2">Type : </string>
+    <string name="AC_tv3">Tags : </string>
+    <string name="AC_tv4">Weeks : </string>
+    <string name="AC_btnPopup">Tune</string>
+    ----------spiner items----------
+    <string name="SPN_nameItem">Name</string>
+    ------String_Arrays-----------
+    <string name="Muntils_choie">Choise</string>
+</resources>
