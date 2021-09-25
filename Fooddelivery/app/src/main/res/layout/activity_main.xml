@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tvWC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ac_welcome"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tvTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWC"
+            android:layout_marginTop="10dp"
+            android:text="@string/ac_title"
+             />
+        <LinearLayout
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imV"
+            android:layout_below="@id/tvTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@drawable/apple"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="40dp"/>
+            <ImageView
+                android:src="@drawable/icongmail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="40dp"/>
+            <ImageView
+                android:src="@drawable/iconfb"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/iconadd"/>
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ac_etName"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/iconpass"/>
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/etPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ac_etPass"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ac_btnSignup"
+            android:textAllCaps="false"
+            android:background="@drawable/bo_tron"
+            android:layout_above="@id/tvtt"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvtt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ac_tvtitle"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+
+</layout>

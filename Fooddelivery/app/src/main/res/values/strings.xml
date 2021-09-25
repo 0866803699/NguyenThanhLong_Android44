@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food delivery</string>
+    ----------Ac_login------------------------
+    <string name="ac_welcome">Welcome!</string>
+    <string name="ac_title">Sign up with Social of fill the form to continue.</string>
+    <string name="ac_etName">Name</string>
+    <string name="ac_etPass">Password</string>
+    <string name="ac_btnSignup">Sign up</string>
+    <string name="ac_tvtitle">By Signing up, you agree to the Terms of Service and Privacy Policy</string>
+    ----------AC_Homepage-------------
+    <string name="ac_homepage">Recommended</string>
+    <string name="ac_see">See all</string>
+    <string name="ac_new">New</string>
+    <string name="ac_hot">Hot</string>
+    <string name="fragment_homepage">Home</string>
+    <string name="Fragment_Menu">Menu</string>
+    <string name="fragment_favorites">Favorites</string>
+    <string name="fragment_chat">Chat</string>
+    ----------item_food--------------------------------------------------------
+    <string name="item_food1">Name Food</string>
+    <string name="item_food2">price</string>
+</resources>
